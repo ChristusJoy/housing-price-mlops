@@ -1,5 +1,8 @@
 import os
+from dotenv import load_dotenv
 from datetime import date
+
+load_dotenv()
 
 # For MongoDB connection
 DATABASE_NAME = "housing_price"
@@ -11,7 +14,7 @@ ARTIFACT_DIR: str = "artifact"
 
 MODEL_FILE_NAME = "model.pkl"
 
-TARGET_COLUMN = "Response"
+TARGET_COLUMN = "SalePrice"
 CURRENT_YEAR = date.today().year
 PREPROCSSING_OBJECT_FILE_NAME = "preprocessing.pkl"
 
