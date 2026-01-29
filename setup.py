@@ -1,3 +1,8 @@
+"""
+Configuration file for packaging the project as a Python library named 'src'.
+Inputs: None
+Outputs: Installable package.
+"""
 from setuptools import setup, find_packages
 
 setup(

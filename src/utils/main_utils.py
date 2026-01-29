@@ -1,3 +1,8 @@
+"""
+Provides utility functions for file operations (YAML, object serialization/deserialization).
+Inputs: Various
+Outputs: Various
+"""
 import os
 import sys
 

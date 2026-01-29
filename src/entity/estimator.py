@@ -1,3 +1,8 @@
+"""
+Defines a wrapper class for the trained model ensuring preprocessing is applied during prediction.
+Inputs: Preprocessing object, trained model
+Outputs: Predicted values
+"""
 import sys
 from pandas import DataFrame
 from sklearn.pipeline import Pipeline

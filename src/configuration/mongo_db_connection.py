@@ -1,3 +1,8 @@
+"""
+Establishes connection to MongoDB database.
+Inputs: Database name
+Outputs: MongoDB client
+"""
 import os
 import sys
 import pymongo

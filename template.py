@@ -1,3 +1,8 @@
+"""
+Script to initialize the project structure by creating necessary directories and empty files.
+Inputs: List of file paths
+Outputs: Directories and files in the file system.
+"""
 import os
 from pathlib import Path
 

@@ -1,3 +1,8 @@
+"""
+Defines custom exception class and detailed error message utilities.
+Inputs: Exception object
+Outputs: Formatted error message
+"""
 import sys
 import logging
 

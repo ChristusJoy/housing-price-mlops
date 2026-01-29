@@ -1,3 +1,8 @@
+"""
+Configures and initializes the application's logging system.
+Inputs: None
+Outputs: Logger instance
+"""
 import logging
 import os
 from logging.handlers import RotatingFileHandler

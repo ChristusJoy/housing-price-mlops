@@ -1,3 +1,8 @@
+"""
+Demonstration script to verify logging, exception handling, and execute the training pipeline.
+Inputs: None
+Outputs: Logs and pipeline execution results.
+"""
 # # below code is to check the logging config
 # from src.logger import logging
 

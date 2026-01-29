@@ -1,3 +1,8 @@
+"""
+Performs data validation checking schema (columns, types) and data drift.
+Inputs: DataIngestionArtifact, DataValidationConfig
+Outputs: DataValidationArtifact (validation status)
+"""
 import json
 import sys
 import os

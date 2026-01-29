@@ -1,3 +1,8 @@
+"""
+Defines dataclasses for configuration of pipeline components.
+Inputs: None
+Outputs: Configuration objects
+"""
 import os
 from src.constants import *
 from dataclasses import dataclass

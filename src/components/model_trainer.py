@@ -1,3 +1,8 @@
+"""
+Trains the model (XGBRegressor) using transformed data and configures model parameters.
+Inputs: DataTransformationArtifact, ModelTrainerConfig
+Outputs: ModelTrainerArtifact (trained model, metrics)
+"""
 import sys
 from typing import Tuple
 

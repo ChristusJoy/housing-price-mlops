@@ -1,3 +1,8 @@
+"""
+Handles data access from MongoDB, exporting collections to dataframes.
+Inputs: None
+Outputs: pandas DataFrame
+"""
 import sys
 import pandas as pd
 import numpy as np

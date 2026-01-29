@@ -1,3 +1,8 @@
+"""
+Defines constant variables and paths used throughout the application.
+Inputs: None
+Outputs: Constant values
+"""
 import os
 from dotenv import load_dotenv
 from datetime import date

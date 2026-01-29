@@ -1,3 +1,8 @@
+"""
+Handles data ingestion ensuring data is exported from MongoDB to feature store and split into train/test sets.
+Inputs: DataIngestionConfig
+Outputs: DataIngestionArtifact (train/test file paths)
+"""
 import os
 import sys
 

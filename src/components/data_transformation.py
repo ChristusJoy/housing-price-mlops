@@ -1,3 +1,8 @@
+"""
+Manages data transformation (preprocessing, sealing, imputing) for training.
+Inputs: DataIngestionArtifact, DataValidationArtifact, DataTransformationConfig
+Outputs: DataTransformationArtifact (preprocessor, transformed data)
+"""
 import sys
 import numpy as np
 import pandas as pd

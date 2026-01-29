@@ -1,3 +1,8 @@
+"""
+Orchestrates the training pipeline by invoking components sequentially.
+Inputs: None (uses configurations)
+Outputs: None (generates artifacts)
+"""
 import sys
 from src.exception import MyException
 from src.logger import logging
